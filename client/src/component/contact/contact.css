@@ -1,0 +1,15 @@
+.contactPage {
+
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.contactPage .imgBackground{
+    width: 100%;
+    height: 100%;
+    
+    background-image: url('../../images/kitchenBackground.png');
+    /* background-size: 50%; */
+    background-position: center;
+}
