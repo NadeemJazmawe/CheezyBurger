@@ -1,0 +1,14 @@
+.menu{
+    background-color: #110E0E;
+}
+
+.menu .menuPic{
+    padding-top: 80px;
+    width: 100%;
+}
+
+.menu .menuPic img{
+    object-fit: cover;
+      width: 100%;
+      height: 100%;
+}

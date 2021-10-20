@@ -34,8 +34,8 @@ export default class navBar extends Component {
                         <Link to="/">ראשי</Link>
                         <Link to= "/menu">תפריט</Link>
                         <Link to= "/contact">צור קשר</Link>
-                        <Link to= "/contact">פידפאק</Link>
-                        <Link to= "/contact">תמונות</Link>
+                        {/* <Link to= "/contact">פידפאק</Link>
+                        <Link to= "/contact">תמונות</Link> */}
                     </div>
                     <button onClick= {this.setshowLinks}>
                         <BiMenu />

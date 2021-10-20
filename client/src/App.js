@@ -9,6 +9,7 @@ import {
 import NavBar from './component/navBarPage/navBar.js';
 import Home from './component/homePage/home.js'
 import Contact from './component/contact/contact.js';
+import Menu from './component/menuPage/menu.js';
 
 function App() {
   return (
@@ -22,6 +23,12 @@ function App() {
         exact={true}      
         path="/"
         component={Home}
+      />
+
+      <Route
+        exact={true}      
+        path="/menu"
+        component={Menu}
       />
 
       <Route

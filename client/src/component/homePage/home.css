@@ -3,13 +3,29 @@
 }
 
 .homePage .frontImage{
-    position: relative;
+    /* position: relative; */
 }
 
 .homePage .frontImage img{
-    position: relative;
+    /* position: relative; */
 
     width: 100%;
     /* height: 10%; */
     background-size: 100%;
+}
+
+.homePage .menuButton{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.homePage .menuButton button{
+    justify-content: center;
+    font-size: 89px;
+    color: white;
+    background-color: #AE0A0A;
+    border-radius: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
