@@ -1,7 +1,7 @@
 import React from 'react'
 import './firstNote.css'
 
-import img1 from '../../images/kai-pilger-tL92LY152Sk-unsplash.jpg'
+import img1 from '../../images/image00002.jpeg'
 
 
 export default function firstNote() {

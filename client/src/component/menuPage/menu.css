@@ -2,13 +2,37 @@
     background-color: #110E0E;
 }
 
-.menu .menuPic{
+.menu .menuPicWeb{
+    display: block;
     padding-top: 80px;
     width: 100%;
 }
 
-.menu .menuPic img{
+.menu .menuPicWeb img{
     object-fit: cover;
-      width: 100%;
-      height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.menu .menuPicMobile{
+    display: none;
+}
+
+
+@media(max-width: 940px){
+    .menu .menuPicWeb{
+        display: none;
+    }
+
+    .menu .menuPicMobile{
+        display: block;
+        padding-top: 80px;
+        width: 100%;
+    }
+    
+    .menu .menuPicMobile img{
+        object-fit: cover;
+          width: 100%;
+          height: 100%;
+    }
 }

@@ -10,6 +10,7 @@ import NavBar from './component/navBarPage/navBar.js';
 import Home from './component/homePage/home.js'
 import Contact from './component/contact/contact.js';
 import Menu from './component/menuPage/menu.js';
+import SocialMedia from './component/socialMedia/socialMedia.js';
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
         path="/contact"
         component={Contact}
       />
+
+      <SocialMedia />
 
     </Router>
   );

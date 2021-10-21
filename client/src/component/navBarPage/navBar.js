@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import './navBar.css'
 import logo from "../../images/logo.png"
 import {BiMenu} from "react-icons/bi"
+import menuPic from "../../images/icons8-menu.svg"
 
 export default class navBar extends Component {
 

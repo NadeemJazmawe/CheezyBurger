@@ -1,0 +1,32 @@
+.socialMediaPage {
+    /* margin-top: 60px; */
+    background-color: #110E0E;
+    padding-top: 60px;
+}
+
+.socialMediaPage .packground{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+}
+
+.socialMediaPage .packground .image{
+    /* width: 80%;
+    height: 100px;
+    display: flex;
+    margin-top: 60px;
+    margin: auto; */
+    background: url("../../images/socialmediaPackground.jpg") no-repeat center center fixed; 
+
+    /* height: 500px; */
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover
+    
+}
+
+
+
+.socialMediaPage .packground .image .message {
+
+}
