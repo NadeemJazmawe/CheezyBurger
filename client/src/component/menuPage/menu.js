@@ -12,6 +12,7 @@ export default class menu extends Component {
                     <img src={img1} alt=""/>
                 </div>
 
+                
                 <div className="menuPicMobile">
                     <img src={img2} alt=""/>
                 </div>
