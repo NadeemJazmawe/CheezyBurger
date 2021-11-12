@@ -28,5 +28,10 @@
 
 
 .socialMediaPage .packground .image .message {
-
+    padding: 20px;
+    direction: rtl;
+    text-align: center;
+    color: #e9c147;
+    font-size: 40px;
+    font-weight: bold ;
 }
